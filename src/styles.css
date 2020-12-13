@@ -1,0 +1,148 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+.tagline {
+  display: block;
+  padding-top: 30px;
+}
+.car-background {
+  padding-top: 115px;
+}
+.header {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding: 0px 0px 1px 0px;
+}
+.header span {
+  font-size: 10px;
+}
+.header img {
+  position: relative;
+  top: 20px;
+}
+.car-img img {
+  height: 25vw;
+  width: 40vw;
+  max-width: 400px;
+}
+.car-block {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0px 0px 0px;
+}
+.car-props {
+  display: flex;
+  overflow: auto;
+  padding: 10px 0px 0px 2px;
+  max-height: 200px;
+}
+
+.car-details {
+  width: 40vw;
+  min-width: 235px;
+  margin: 10px auto auto auto;
+}
+
+.subblock {
+  margin: 1vw auto;
+}
+/*.mil {
+  border-bottom: 1px solid gray;
+  padding: 0px 0px 5px 0px;
+}
+.fuel {
+  border-bottom: 1px solid gray;
+  padding: 0px 0px 5px 0px;
+}*/
+.eng {
+  padding: 5px 0px 0px 0px;
+}
+.seater {
+  padding: 5px 0px 0px 0px;
+}
+.mil > div {
+  font-weight: bold;
+}
+.fuel > div {
+  font-weight: bold;
+}
+.eng > div {
+  font-weight: bold;
+}
+.seater > div {
+  font-weight: bold;
+}
+.price {
+  padding-top: 5px;
+  border-bottom: 1px solid gray;
+  margin-top: 1vw;
+}
+.title {
+  font-size: 4.5vw;
+  font-weight: 400;
+}
+.price span {
+  font-weight: 500;
+}
+
+.button {
+  display: inline-block;
+  color: black;
+  background-color: white;
+  width: 16vw;
+  max-width: 400px;
+  min-width: 97px;
+  min-height: 25px;
+  border: 2.5px solid black;
+  border-radius: 0.5rem;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 3px 3px 3px 3px;
+}
+.tab {
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+.button:hover {
+  color: deepskyblue;
+  border: 2.5px solid deepskyblue;
+  cursor: pointer;
+  font-weight: 600;
+  transition-delay: 0.2s;
+}
+body {
+  margin-top: 0px;
+}
+.footer {
+  height: 100px;
+  background-color: rgb(92, 92, 92);
+  border-radius: 1rem 1rem 0rem 0rem;
+  margin-top: 75px;
+  padding-top: 15px;
+}
+.footer div {
+  display: inline-block;
+  margin: 20px 10px 0px 0px;
+  font-weight: 500;
+  color: white;
+}
+.footer img {
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 1rem;
+  margin: 10px auto;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
