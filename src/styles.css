@@ -5,7 +5,11 @@
   --button-background:white;
   --button-border:black;
   --button-text:black;
-
+  --button-hover-border: deepskyblue;
+  --button-hover-text: deepskyblue;
+  --footer-background:rgb(92, 92, 92);
+  --footer-div-text:white;
+  --footer-div-link:white;
 
 
 }
@@ -126,8 +130,8 @@
   margin-top: 25px;
 }
 .button:hover {
-  color: deepskyblue;
-  border: 2.5px solid deepskyblue;
+  color: var(--button-hover-text);
+  border: 2.5px solid var(--button-hover-border);
   cursor: pointer;
   font-weight: 600;
   transition-delay: 0.2s;
@@ -137,7 +141,7 @@ body {
 }
 .footer {
   height: 100px;
-  background-color: rgb(92, 92, 92);
+  background-color: var(--footer-background);
   border-radius: 1rem 1rem 0rem 0rem;
   margin-top: 75px;
   padding-top: 15px;
@@ -146,7 +150,7 @@ body {
   display: inline-block;
   margin: 20px 10px 0px 0px;
   font-weight: 500;
-  color: white;
+  color:var(--footer-div-text);
 }
 .footer img {
   display: block;
@@ -157,5 +161,5 @@ body {
 }
 .footer a {
   text-decoration: none;
-  color: white;
+  color: var(--footer-div-link);
 }
