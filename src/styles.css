@@ -10,6 +10,7 @@
   --footer-background:rgb(92, 92, 92);
   --footer-div-text:white;
   --footer-div-link:white;
+  --tab-back:white;
 
 
 }
@@ -128,6 +129,9 @@
 .tab {
   margin-bottom: 50px;
   margin-top: 25px;
+  position: sticky;
+  top: 55px;
+  background-color:var(--tab-back);
 }
 .button:hover {
   color: var(--button-hover-text);
